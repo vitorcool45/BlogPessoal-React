@@ -1,14 +1,17 @@
 import React from 'react';
-import Home from './paginas/home/Home';
+import logo from './logo.svg';
 import './App.css';
-
-
+import NavBar from './NavBar/NavBar'
+import Footer from './Footer/Footer';
+import Home from './Home/Home';
 function App() {
   return (
-    <Home />
+    <div>
+      <NavBar />
+      <Home />
+      <Footer />
+    </div>
   );
 }
 
 export default App;
-
-
