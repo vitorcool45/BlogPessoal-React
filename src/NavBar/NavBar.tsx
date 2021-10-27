@@ -21,7 +21,7 @@ function NavBar() {
   };
   return (
     <div>
-      <AppBar position="fixed" className="cor-nav-bar">
+      <AppBar position="fixed" className="degrade">
         <Toolbar>
 
           <Typography variant="h6" >
@@ -37,7 +37,7 @@ function NavBar() {
               aria-expanded={open ? 'true' : undefined}
               onClick={handleClick}
             >
-              <MenuIcon />
+              <MenuIcon className="icon" />
             </Button>
             <Menu
               id="basic-menu"

@@ -6,3 +6,12 @@
     cursor: pointer;
     color: white;
 }
+
+.icon{
+    color: white;
+    ;
+}
+
+.degrade{
+    background-image: linear-gradient( to right,#EF96C4 ,#E14479 , #0063E7,#0C5CCD,#693355  );
+}

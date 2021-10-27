@@ -1,10 +1,10 @@
 .box1{
-    background-color: #263238;
+    background-image: linear-gradient( to right,#EF96C4 ,#E14479 , #0063E7,#0C5CCD,#693355  );
     height: 120px;
 }
 
 .box2{
-    background-color: #37474F;
+    background-image: linear-gradient( to right,#EF96C4 ,#E14479 , #0063E7,#0C5CCD,#693355  );
     height: 60px;
 }
 
