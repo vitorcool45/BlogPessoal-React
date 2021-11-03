@@ -8,6 +8,7 @@ import MenuItem from '@mui/material/MenuItem';
 import Button from '@mui/material/Button';
 import MenuIcon from '@material-ui/icons/Menu';
 import './NavBar.css';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
 
@@ -48,9 +49,22 @@ function NavBar() {
                 'aria-labelledby': 'basic-button',
               }}
             >
-              <MenuItem onClick={handleClose}>Profile</MenuItem>
-              <MenuItem onClick={handleClose}>My account</MenuItem>
+              <MenuItem onClick={handleClose}>Home</MenuItem>
+
+              <MenuItem onClick={handleClose}>Postagens</MenuItem>
+
+              <MenuItem onClick={handleClose}>Temas</MenuItem>
+
+              <MenuItem onClick={handleClose}>Cadastrar tema</MenuItem>
+
+              <Link to='/cadastro' className='text-decorator-none'>
+              <MenuItem onClick={handleClose}>Cadastrar usuário</MenuItem>
+              </Link>
+
+              <Link to='/login' className='text-decorator-none'>
               <MenuItem onClick={handleClose}>Logout</MenuItem>
+              </Link>
+              
             </Menu>
           </Box>
         </Toolbar>
